@@ -2,6 +2,9 @@
 *.asv
 *.m~
 *.autosave
+# Audio Files
+#*.wav
+#*.mp3
 # Simulink / generated
 slprj/
 sccprj/
