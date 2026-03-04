@@ -6,4 +6,8 @@ t = 0:1/fs:(0.1-ts);
 sig = Amp*sin(2*pi*f*t);
 sound(sig,fs);
 plot(t,sig);
+xlabel('Time (s)');
+ylabel('Amplitude');
+title('440 Hz Sine Wave');
+grid on;
 audiowrite('sine1.wav',sig,fs);
