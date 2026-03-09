@@ -4,7 +4,6 @@ Lf = 500;
 Rf = 1000;
 fs = 41000;
 ts= 1/fs;
-)%
 t = 0:1/fs:(0.5-ts);
 env = linspace(1, 0, length(t));
 Lsig = Amp * sin(2*pi*Lf*t) .*env;
