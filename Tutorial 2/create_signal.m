@@ -11,3 +11,6 @@ dur = 1; % duration in seconds
 %% Plot signal
 plot(t, sig);
 xlabel("Time (s)");
+
+%play signal
+sound(sig, fs)
